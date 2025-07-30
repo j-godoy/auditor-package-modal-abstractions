@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1003pt" height="310pt" viewBox="0.00 0.00 1002.62 310.40">
+<g id="graph0" class="graph" transform="translate(4,306.3999938964844) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-306.4 998.62,-306.4 998.62,4 -4,4"/>
+<!-- S05 -->
+<g id="node5" class="node" pointer-events="visible" data-name="S05">
+
+<ellipse fill="none" stroke="black" cx="778.33" cy="-18" rx="100.17" ry="18"/>
+<text text-anchor="middle" x="778.33" y="-13.8" font-family="Times,serif" font-size="14.00">apuestan ambos, gana2</text>
+</g>
+<!-- S05&#45;&gt;S05 -->
+<g id="edge1" class="edge" data-name="S05-&gt;S05">
+
+<path fill="none" stroke="blue" d="M869.38,-25.82C885.46,-24.79 896.67,-22.18 896.67,-18 896.67,-14.89 890.5,-12.66 880.74,-11.29"/>
+<polygon fill="blue" stroke="blue" points="881.18,-7.82 870.89,-10.33 880.5,-14.78 881.18,-7.82"/>
+<text text-anchor="middle" x="945.65" y="-13.8" font-family="Times,serif" font-size="14.00">determineWinner</text>
+</g>
+<!-- S01 -->
+<g id="node1" class="node" pointer-events="visible" data-name="S01">
+
+<ellipse fill="none" stroke="black" cx="481.33" cy="-195.6" rx="59.1" ry="18"/>
+<text text-anchor="middle" x="481.33" y="-191.4" font-family="Times,serif" font-size="14.00">Sin apuestas</text>
+</g>
+<!-- S03 -->
+<g id="node3" class="node" pointer-events="visible" data-name="S03">
+
+<ellipse fill="none" stroke="black" cx="422.33" cy="-106.8" rx="49.85" ry="18"/>
+<text text-anchor="middle" x="422.33" y="-102.6" font-family="Times,serif" font-size="14.00">Apuesta 2</text>
+</g>
+<!-- S01&#45;&gt;S03 -->
+<g id="edge2" class="edge" data-name="S01-&gt;S03">
+
+<path fill="none" stroke="blue" d="M469.96,-177.86C461.52,-165.46 449.86,-148.3 440.19,-134.07"/>
+<polygon fill="blue" stroke="blue" points="443.24,-132.34 434.73,-126.03 437.45,-136.27 443.24,-132.34"/>
+<text text-anchor="middle" x="496.98" y="-147" font-family="Times,serif" font-size="14.00">choicePlayer2</text>
+</g>
+<!-- S02 -->
+<g id="node2" class="node" pointer-events="visible" data-name="S02">
+
+<ellipse fill="none" stroke="black" cx="587.33" cy="-106.8" rx="49.85" ry="18"/>
+<text text-anchor="middle" x="587.33" y="-102.6" font-family="Times,serif" font-size="14.00">Apuesta 1</text>
+</g>
+<!-- S01&#45;&gt;S02 -->
+<g id="edge8" class="edge" data-name="S01-&gt;S02">
+
+<path fill="none" stroke="blue" d="M508.74,-179.32C518.14,-173.6 528.52,-166.74 537.33,-159.6 547.34,-151.49 557.4,-141.52 565.84,-132.49"/>
+<polygon fill="blue" stroke="blue" points="568.21,-135.09 572.36,-125.34 563.04,-130.37 568.21,-135.09"/>
+<text text-anchor="middle" x="594.98" y="-147" font-family="Times,serif" font-size="14.00">choicePlayer1</text>
+</g>
+<!-- S03&#45;&gt;S05 -->
+<g id="edge11" class="edge" data-name="S03-&gt;S05">
+
+<path fill="none" stroke="blue" d="M459.25,-94.41C475.55,-88.56 494.55,-80.59 510.33,-70.8 519.83,-64.91 518.88,-58.66 529.04,-54 586.19,-27.81 607.09,-44.84 669.33,-36 677.35,-34.86 685.69,-33.63 694.04,-32.38"/>
+<polygon fill="blue" stroke="blue" points="694.52,-35.85 703.88,-30.89 693.47,-28.93 694.52,-35.85"/>
+<text text-anchor="middle" x="568.98" y="-58.2" font-family="Times,serif" font-size="14.00">choicePlayer1</text>
+</g>
+<!-- S04 -->
+<g id="node4" class="node" pointer-events="visible" data-name="S04">
+
+<ellipse fill="none" stroke="black" cx="100.33" cy="-18" rx="100.17" ry="18"/>
+<text text-anchor="middle" x="100.33" y="-13.8" font-family="Times,serif" font-size="14.00">apuestan ambos, gana1</text>
+</g>
+<!-- S03&#45;&gt;S04 -->
+<g id="edge10" class="edge" data-name="S03-&gt;S04">
+
+<path fill="none" stroke="blue" d="M377.05,-99.06C340.3,-93.1 287.35,-83.39 242.04,-70.8 210.76,-62.11 176.56,-49.69 149.6,-39.2"/>
+<polygon fill="blue" stroke="blue" points="150.88,-35.94 140.3,-35.53 148.32,-42.45 150.88,-35.94"/>
+<text text-anchor="middle" x="281.98" y="-58.2" font-family="Times,serif" font-size="14.00">choicePlayer1</text>
+</g>
+<!-- S06 -->
+<g id="node6" class="node" pointer-events="visible" data-name="S06">
+
+<ellipse fill="none" stroke="black" cx="439.33" cy="-18" rx="105.32" ry="18"/>
+<text text-anchor="middle" x="439.33" y="-13.8" font-family="Times,serif" font-size="14.00">apuestan ambos, empate</text>
+</g>
+<!-- S03&#45;&gt;S06 -->
+<g id="edge5" class="edge" data-name="S03-&gt;S06">
+
+<path fill="none" stroke="blue" d="M378.52,-97.89C347.02,-90.17 312.74,-76.28 329.04,-54 334.75,-46.19 342.22,-40.08 350.58,-35.31"/>
+<polygon fill="blue" stroke="blue" points="351.97,-38.53 359.39,-30.97 348.87,-32.25 351.97,-38.53"/>
+<text text-anchor="middle" x="368.98" y="-58.2" font-family="Times,serif" font-size="14.00">choicePlayer1</text>
+</g>
+<!-- S02&#45;&gt;S05 -->
+<g id="edge4" class="edge" data-name="S02-&gt;S05">
+
+<path fill="none" stroke="blue" d="M628.01,-96.02C649.72,-90.08 676.59,-81.55 699.33,-70.8 715.84,-63 732.93,-52.19 746.97,-42.46"/>
+<polygon fill="blue" stroke="blue" points="748.79,-45.46 754.93,-36.82 744.74,-39.75 748.79,-45.46"/>
+<text text-anchor="middle" x="768.98" y="-58.2" font-family="Times,serif" font-size="14.00">choicePlayer2</text>
+</g>
+<!-- S02&#45;&gt;S04 -->
+<g id="edge3" class="edge" data-name="S02-&gt;S04">
+
+<path fill="none" stroke="blue" d="M542.5,-98.65C502.37,-91.78 446.88,-80.96 427.04,-70.8 417.09,-65.71 418.53,-58.58 408.33,-54 389.61,-45.58 283.8,-34.77 201.36,-27.4"/>
+<polygon fill="blue" stroke="blue" points="201.68,-23.91 191.41,-26.52 201.06,-30.89 201.68,-23.91"/>
+<text text-anchor="middle" x="466.98" y="-58.2" font-family="Times,serif" font-size="14.00">choicePlayer2</text>
+</g>
+<!-- S02&#45;&gt;S06 -->
+<g id="edge9" class="edge" data-name="S02-&gt;S06">
+
+<path fill="none" stroke="blue" d="M603.93,-89.73C613.11,-78.89 621.06,-64.67 612.33,-54 602.57,-42.07 573.75,-34.1 542.36,-28.84"/>
+<polygon fill="blue" stroke="blue" points="543.1,-25.41 532.68,-27.32 542.02,-32.33 543.1,-25.41"/>
+<text text-anchor="middle" x="655.98" y="-58.2" font-family="Times,serif" font-size="14.00">choicePlayer2</text>
+</g>
+<!-- S04&#45;&gt;S04 -->
+<g id="edge6" class="edge" data-name="S04-&gt;S04">
+
+<path fill="none" stroke="blue" d="M191.38,-25.82C207.46,-24.79 218.67,-22.18 218.67,-18 218.67,-14.89 212.5,-12.66 202.74,-11.29"/>
+<polygon fill="blue" stroke="blue" points="203.18,-7.82 192.89,-10.33 202.5,-14.78 203.18,-7.82"/>
+<text text-anchor="middle" x="267.65" y="-13.8" font-family="Times,serif" font-size="14.00">determineWinner</text>
+</g>
+<!-- S06&#45;&gt;S06 -->
+<g id="edge12" class="edge" data-name="S06-&gt;S06">
+
+<path fill="none" stroke="blue" d="M535.38,-25.74C551.42,-24.65 562.49,-22.08 562.49,-18 562.49,-14.98 556.4,-12.77 546.69,-11.4"/>
+<polygon fill="blue" stroke="blue" points="547.19,-7.93 536.89,-10.41 546.49,-14.9 547.19,-7.93"/>
+<text text-anchor="middle" x="611.47" y="-13.8" font-family="Times,serif" font-size="14.00">determineWinner</text>
+</g>
+<!-- S00 -->
+<g id="node7" class="node" pointer-events="visible" data-name="S00">
+
+<ellipse fill="none" stroke="black" cx="481.33" cy="-284.4" rx="27" ry="18"/>
+<text text-anchor="middle" x="481.33" y="-280.2" font-family="Times,serif" font-size="14.00">S00</text>
+</g>
+<!-- S00&#45;&gt;S01 -->
+<g id="edge7" class="edge" data-name="S00-&gt;S01">
+
+<path fill="none" stroke="blue" d="M481.33,-266.25C481.33,-254.56 481.33,-238.79 481.33,-225.22"/>
+<polygon fill="blue" stroke="blue" points="484.84,-225.52 481.33,-215.52 477.84,-225.52 484.84,-225.52"/>
+<text text-anchor="middle" x="512.82" y="-235.8" font-family="Times,serif" font-size="14.00">constructor</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,151 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="597pt" height="586pt" viewBox="0.00 0.00 596.59 585.56">
+<g id="graph0" class="graph" transform="translate(68.69205765303917,523.5886622792378) scale(0.7937005332711153)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-581.56 592.59,-581.56 592.59,4 -4,4" style=""/>
+<!-- S00 -->
+<g id="node1" class="node" pointer-events="visible" data-name="S00">
+
+<ellipse fill="none" stroke="black" cx="418.15" cy="-559.56" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="418.15" y="-555.36" font-family="Times,serif" font-size="14.00" style="">Init</text>
+</g>
+<!-- S21 -->
+<g id="node5" class="node" pointer-events="visible" data-name="S21">
+
+<ellipse fill="none" stroke="black" cx="418.15" cy="-447.47" rx="145.39" ry="41.09" style=""/>
+<text text-anchor="middle" x="418.15" y="-460.07" font-family="Times,serif" font-size="14.00" style="">setupCrowdsale &amp; !buy</text>
+<text text-anchor="middle" x="418.15" y="-443.27" font-family="Times,serif" font-size="14.00" style=""> &amp; !checkGoalReached &amp; !refund</text>
+<text text-anchor="middle" x="418.15" y="-426.47" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S00&#45;&gt;S21 -->
+<g id="edge12" class="edge" data-name="S00-&gt;S21">
+
+<path fill="none" stroke="blue" d="M418.15,-541.36C418.15,-530.18 418.15,-514.96 418.15,-500.08" style=""/>
+<polygon fill="blue" stroke="blue" points="421.65,-500.35 418.15,-490.35 414.65,-500.35 421.65,-500.35" style=""/>
+<text text-anchor="middle" x="449.64" y="-510.96" font-family="Times,serif" font-size="14.00" style="">constructor</text>
+</g>
+<!-- S08 -->
+<g id="node2" class="node" pointer-events="visible" data-name="S08">
+
+<ellipse fill="none" stroke="black" cx="179.15" cy="-41.3" rx="138.7" ry="41.09" style=""/>
+<text text-anchor="middle" x="179.15" y="-53.9" font-family="Times,serif" font-size="14.00" style="">!setupCrowdsale &amp; !buy</text>
+<text text-anchor="middle" x="179.15" y="-37.1" font-family="Times,serif" font-size="14.00" style=""> &amp; checkGoalReached &amp; refund</text>
+<text text-anchor="middle" x="179.15" y="-20.3" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S08&#45;&gt;S08 -->
+<g id="edge11" class="edge" data-name="S08-&gt;S08">
+
+<path fill="none" stroke="turquoise" d="M317.32,-46.2C328.84,-45.14 336,-43.51 336,-41.3 336,-39.95 333.34,-38.81 328.66,-37.89" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="329.2,-34.43 318.82,-36.59 328.28,-41.37 329.2,-34.43" style=""/>
+<text text-anchor="middle" x="354.27" y="-37.1" font-family="Times,serif" font-size="14.00" style="">refund</text>
+</g>
+<!-- S08&#45;&gt;S08 -->
+<g id="edge13" class="edge" data-name="S08-&gt;S08">
+
+<path fill="none" stroke="blue" d="M311.79,-53.81C346.21,-52.94 372.54,-48.77 372.54,-41.3 372.54,-34.67 351.84,-30.64 323.15,-29.2" style=""/>
+<polygon fill="blue" stroke="blue" points="323.43,-25.71 313.31,-28.83 323.17,-32.7 323.43,-25.71" style=""/>
+<text text-anchor="middle" x="426.56" y="-45.5" font-family="Times,serif" font-size="14.00" style="">checkGoalReached</text>
+<text text-anchor="middle" x="426.56" y="-28.7" font-family="Times,serif" font-size="14.00" style="">t</text>
+</g>
+<!-- S18 -->
+<g id="node4" class="node" pointer-events="visible" data-name="S18">
+
+<ellipse fill="none" stroke="black" cx="179.15" cy="-176.69" rx="142.3" ry="41.09" style=""/>
+<text text-anchor="middle" x="179.15" y="-189.29" font-family="Times,serif" font-size="14.00" style="">!setupCrowdsale &amp; !buy</text>
+<text text-anchor="middle" x="179.15" y="-172.49" font-family="Times,serif" font-size="14.00" style=""> &amp; checkGoalReached &amp; !refund</text>
+<text text-anchor="middle" x="179.15" y="-155.69" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S08&#45;&gt;S18 -->
+<g id="edge5" class="edge" data-name="S08-&gt;S18">
+
+<path fill="none" stroke="turquoise" d="M216.82,-80.97C223.58,-92.26 227.32,-104.92 223.15,-117.39 222.11,-120.49 220.83,-123.56 219.38,-126.57" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="216.37,-124.77 214.57,-135.21 222.49,-128.18 216.37,-124.77" style=""/>
+<text text-anchor="middle" x="243.42" y="-104.79" font-family="Times,serif" font-size="14.00" style="">refund</text>
+</g>
+<!-- S12 -->
+<g id="node3" class="node" pointer-events="visible" data-name="S12">
+
+<ellipse fill="none" stroke="black" cx="142.15" cy="-312.08" rx="142.3" ry="41.09" style=""/>
+<text text-anchor="middle" x="142.15" y="-324.68" font-family="Times,serif" font-size="14.00" style="">!setupCrowdsale &amp; buy</text>
+<text text-anchor="middle" x="142.15" y="-307.88" font-family="Times,serif" font-size="14.00" style=""> &amp; checkGoalReached &amp; !refund</text>
+<text text-anchor="middle" x="142.15" y="-291.08" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S12&#45;&gt;S12 -->
+<g id="edge1" class="edge" data-name="S12-&gt;S12">
+
+<path fill="none" stroke="black" d="M284.27,-315.28C295.41,-314.58 302.3,-313.51 302.3,-312.08 302.3,-311.22 299.87,-310.5 295.57,-309.91" style=""/>
+<polygon fill="black" stroke="black" points="296.06,-306.44 285.78,-309.01 295.41,-313.41 296.06,-306.44" style=""/>
+<text text-anchor="middle" x="312.8" y="-307.88" font-family="Times,serif" font-size="14.00" style="">buy</text>
+</g>
+<!-- S12&#45;&gt;S12 -->
+<g id="edge3" class="edge" data-name="S12-&gt;S12">
+
+<path fill="none" stroke="turquoise" d="M282.02,-319.99C306.35,-318.92 323.3,-316.28 323.3,-312.08 323.3,-308.56 311.46,-306.14 293.36,-304.81" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="293.72,-301.33 283.53,-304.25 293.31,-308.31 293.72,-301.33" style=""/>
+<text text-anchor="middle" x="326.8" y="-307.88" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S12&#45;&gt;S12 -->
+<g id="edge8" class="edge" data-name="S12-&gt;S12">
+
+<path fill="none" stroke="blue" d="M278.18,-324.65C314.07,-323.9 341.3,-319.71 341.3,-312.08 341.3,-305.27 319.7,-301.21 289.62,-299.87" style=""/>
+<polygon fill="blue" stroke="blue" points="289.8,-296.38 279.69,-299.55 289.57,-303.37 289.8,-296.38" style=""/>
+<text text-anchor="middle" x="395.32" y="-307.88" font-family="Times,serif" font-size="14.00" style="">checkGoalReached</text>
+</g>
+<!-- S12&#45;&gt;S18 -->
+<g id="edge9" class="edge" data-name="S12-&gt;S18">
+
+<path fill="none" stroke="turquoise" d="M128.35,-270.99C126.35,-259.46 126.12,-247.02 130.15,-235.98 131.39,-232.56 132.94,-229.21 134.7,-225.94" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="137.5,-228.07 139.77,-217.72 131.54,-224.39 137.5,-228.07" style=""/>
+<text text-anchor="middle" x="133.65" y="-240.18" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S12&#45;&gt;S18 -->
+<g id="edge10" class="edge" data-name="S12-&gt;S18">
+
+<path fill="none" stroke="black" d="M146.76,-270.53C148.55,-259.22 150.95,-247.01 154.15,-235.98 154.88,-233.44 155.7,-230.86 156.58,-228.27" style=""/>
+<polygon fill="black" stroke="black" points="159.79,-229.68 159.96,-219.09 153.22,-227.27 159.79,-229.68" style=""/>
+<text text-anchor="middle" x="164.65" y="-240.18" font-family="Times,serif" font-size="14.00" style="">buy</text>
+</g>
+<!-- S18&#45;&gt;S08 -->
+<g id="edge6" class="edge" data-name="S18-&gt;S08">
+
+<path fill="none" stroke="turquoise" d="M125.46,-138.33C119.67,-132.03 114.61,-125.02 111.1,-117.39 106.25,-106.84 108.42,-96.74 114.32,-87.56" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="116.93,-89.9 120.39,-79.88 111.44,-85.55 116.93,-89.9" style=""/>
+<text text-anchor="middle" x="165.17" y="-104.79" font-family="Times,serif" font-size="14.00" style="">checkGoalReached</text>
+</g>
+<!-- S18&#45;&gt;S12 -->
+<g id="edge4" class="edge" data-name="S18-&gt;S12">
+
+<path fill="none" stroke="turquoise" d="M183.28,-218.03C183.35,-229.45 182.35,-241.76 179.15,-252.78 178.34,-255.55 177.36,-258.31 176.25,-261.05" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="173.11,-259.5 172,-270.04 179.44,-262.49 173.11,-259.5" style=""/>
+<text text-anchor="middle" x="186.65" y="-240.18" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S18&#45;&gt;S18 -->
+<g id="edge7" class="edge" data-name="S18-&gt;S18">
+
+<path fill="none" stroke="turquoise" d="M317.52,-186.95C330.85,-184.87 339.3,-181.44 339.3,-176.69 339.3,-173.41 335.31,-170.77 328.48,-168.77" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="329.51,-165.41 319,-166.74 328.05,-172.25 329.51,-165.41" style=""/>
+<text text-anchor="middle" x="393.32" y="-180.89" font-family="Times,serif" font-size="14.00" style="">checkGoalReached</text>
+<text text-anchor="middle" x="393.32" y="-164.09" font-family="Times,serif" font-size="14.00" style="">t</text>
+</g>
+<!-- S21&#45;&gt;S12 -->
+<g id="edge14" class="edge" data-name="S21-&gt;S12">
+
+<path fill="none" stroke="blue" d="M345.63,-411.42C308.39,-393.42 262.87,-371.42 224.33,-352.79" style=""/>
+<polygon fill="blue" stroke="blue" points="226.07,-349.75 215.54,-348.55 223.02,-356.05 226.07,-349.75" style=""/>
+<text text-anchor="middle" x="341.86" y="-375.57" font-family="Times,serif" font-size="14.00" style="">setupCrowdsale</text>
+</g>
+<!-- S21&#45;&gt;S18 -->
+<g id="edge15" class="edge" data-name="S21-&gt;S18">
+
+<path fill="none" stroke="blue" d="M452.86,-407.1C481.78,-369.33 513.7,-312.09 483.15,-270.78 461.61,-241.65 382.23,-217.92 310,-201.71" style=""/>
+<polygon fill="blue" stroke="blue" points="310.93,-198.33 300.42,-199.6 309.43,-205.17 310.93,-198.33" style=""/>
+<text text-anchor="middle" x="539.86" y="-307.88" font-family="Times,serif" font-size="14.00" style="">setupCrowdsale</text>
+</g>
+<!-- S21&#45;&gt;S21 -->
+<g id="edge2" class="edge" data-name="S21-&gt;S21">
+
+<path fill="none" stroke="blue" d="M559.37,-457.73C572.97,-455.65 581.59,-452.23 581.59,-447.47 581.59,-444.19 577.52,-441.55 570.55,-439.55" style=""/>
+<polygon fill="blue" stroke="blue" points="571.36,-436.14 560.85,-437.51 569.92,-442.99 571.36,-436.14" style=""/>
+<text text-anchor="middle" x="585.09" y="-443.27" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+</g>
+</svg>

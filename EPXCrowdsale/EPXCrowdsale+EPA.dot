@@ -1,0 +1,23 @@
+digraph {
+S00 [label="Init"]
+S08 [label="!setupCrowdsale & !buy\n & checkGoalReached & refund\n & τ"]
+S12 [label="!setupCrowdsale & buy\n & checkGoalReached & !refund\n & τ"]
+S18 [label="!setupCrowdsale & !buy\n & checkGoalReached & !refund\n & τ"]
+S21 [label="setupCrowdsale & !buy\n & !checkGoalReached & !refund\n & τ"]
+
+S12->S12 [label="buy", style="", color="black"]
+S21->S21 [label="τ", style="", color="blue"]
+S12->S12 [label="τ", style="", color="turquoise"]
+S18->S12 [label="τ", style="", color="turquoise"]
+S08->S18 [label="refund", style="", color="turquoise"]
+S18->S08 [label="checkGoalReached", style="", color="turquoise"]
+S18->S18 [label="checkGoalReached\nt", style="", color="turquoise"]
+S12->S12 [label="checkGoalReached", style="", color="blue"]
+S12->S18 [label="τ", style="", color="turquoise"]
+S12->S18 [label="buy", style="", color="black"]
+S08->S08 [label="refund", style="", color="turquoise"]
+S00->S21 [label="constructor", style="", color="blue"]
+S08->S08 [label="checkGoalReached\nt", style="", color="blue"]
+S21->S12 [label="setupCrowdsale", style="", color="blue"]
+S21->S18 [label="setupCrowdsale", style="", color="blue"]
+}

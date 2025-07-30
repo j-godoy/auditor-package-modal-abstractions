@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="571pt" height="356pt" viewBox="0.00 0.00 570.92 356.00">
+<g id="graph0" class="graph" transform="translate(4,352) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-352 566.92,-352 566.92,4 -4,4"/>
+<!-- S01 -->
+<g id="node1" class="node" pointer-events="visible" data-name="S01">
+
+<ellipse fill="none" stroke="black" cx="178.81" cy="-234" rx="36.56" ry="18"/>
+<text text-anchor="middle" x="178.81" y="-229.8" font-family="Times,serif" font-size="14.00">Active</text>
+</g>
+<!-- S01&#45;&gt;S01 -->
+<g id="edge1" class="edge" data-name="S01-&gt;S01">
+
+<path fill="none" stroke="blue" d="M210.33,-243.62C222.97,-244.16 233.58,-240.95 233.58,-234 233.58,-229.33 228.79,-226.35 221.81,-225.06"/>
+<polygon fill="blue" stroke="blue" points="222.03,-221.57 211.84,-224.47 221.62,-228.55 222.03,-221.57"/>
+<text text-anchor="middle" x="285.68" y="-246.6" font-family="Times,serif" font-size="14.00">deposit</text>
+<text text-anchor="middle" x="285.68" y="-229.8" font-family="Times,serif" font-size="14.00">t</text>
+<text text-anchor="middle" x="285.68" y="-213" font-family="Times,serif" font-size="14.00">transferOwnership</text>
+</g>
+<!-- S02 -->
+<g id="node2" class="node" pointer-events="visible" data-name="S02">
+
+<ellipse fill="none" stroke="black" cx="51.81" cy="-122.4" rx="51.61" ry="18"/>
+<text text-anchor="middle" x="51.81" y="-118.2" font-family="Times,serif" font-size="14.00">Refunding</text>
+</g>
+<!-- S01&#45;&gt;S02 -->
+<g id="edge7" class="edge" data-name="S01-&gt;S02">
+
+<path fill="none" stroke="blue" d="M161.15,-217.76C139.9,-199.43 104,-168.44 79.16,-147"/>
+<polygon fill="blue" stroke="blue" points="81.56,-144.45 71.7,-140.57 76.98,-149.75 81.56,-144.45"/>
+<text text-anchor="middle" x="168.4" y="-178.2" font-family="Times,serif" font-size="14.00">enableRefunds</text>
+</g>
+<!-- S03 -->
+<g id="node3" class="node" pointer-events="visible" data-name="S03">
+
+<ellipse fill="none" stroke="black" cx="306.81" cy="-122.4" rx="63.1" ry="18"/>
+<text text-anchor="middle" x="306.81" y="-118.2" font-family="Times,serif" font-size="14.00">GoalReached</text>
+</g>
+<!-- S01&#45;&gt;S03 -->
+<g id="edge4" class="edge" data-name="S01-&gt;S03">
+
+<path fill="none" stroke="blue" d="M196.33,-217.99C217.68,-199.72 253.98,-168.63 279.12,-147.11"/>
+<polygon fill="blue" stroke="blue" points="281.35,-149.8 286.67,-140.64 276.8,-144.48 281.35,-149.8"/>
+<text text-anchor="middle" x="292.28" y="-178.2" font-family="Times,serif" font-size="14.00">setGoalReached</text>
+</g>
+<!-- S02&#45;&gt;S02 -->
+<g id="edge2" class="edge" data-name="S02-&gt;S02">
+
+<path fill="none" stroke="blue" d="M93.02,-133.62C108.67,-134.05 121.61,-130.31 121.61,-122.4 121.61,-116.53 114.48,-112.96 104.41,-111.68"/>
+<polygon fill="blue" stroke="blue" points="104.68,-108.19 94.53,-111.25 104.37,-115.18 104.68,-108.19"/>
+<text text-anchor="middle" x="173.7" y="-135" font-family="Times,serif" font-size="14.00">refund</text>
+<text text-anchor="middle" x="173.7" y="-118.2" font-family="Times,serif" font-size="14.00">t</text>
+<text text-anchor="middle" x="173.7" y="-101.4" font-family="Times,serif" font-size="14.00">transferOwnership</text>
+</g>
+<!-- S03&#45;&gt;S03 -->
+<g id="edge3" class="edge" data-name="S03-&gt;S03">
+
+<path fill="none" stroke="blue" d="M367.6,-127.77C379.45,-127.15 387.86,-125.36 387.86,-122.4 387.86,-120.5 384.4,-119.09 378.81,-118.15"/>
+<polygon fill="blue" stroke="blue" points="379.41,-114.69 369.11,-117.18 378.71,-121.66 379.41,-114.69"/>
+<text text-anchor="middle" x="439.95" y="-143.4" font-family="Times,serif" font-size="14.00">deposit</text>
+<text text-anchor="middle" x="439.95" y="-126.6" font-family="Times,serif" font-size="14.00">t</text>
+<text text-anchor="middle" x="439.95" y="-109.8" font-family="Times,serif" font-size="14.00">transferOwnership</text>
+<text text-anchor="middle" x="439.95" y="-93" font-family="Times,serif" font-size="14.00">withdrawAll</text>
+</g>
+<!-- S03&#45;&gt;S03 -->
+<g id="edge9" class="edge" data-name="S03-&gt;S03">
+
+<path fill="none" stroke="black" d="M361.1,-131.83C417.2,-136.06 492.04,-132.92 492.04,-122.4 492.04,-112.58 426.81,-109.19 372.49,-112.23"/>
+<polygon fill="black" stroke="black" points="372.36,-108.73 362.61,-112.87 372.81,-115.71 372.36,-108.73"/>
+<text text-anchor="middle" x="518.48" y="-118.2" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- S04 -->
+<g id="node4" class="node" pointer-events="visible" data-name="S04">
+
+<ellipse fill="none" stroke="black" cx="306.81" cy="-18" rx="37.72" ry="18"/>
+<text text-anchor="middle" x="306.81" y="-13.8" font-family="Times,serif" font-size="14.00">Closed</text>
+</g>
+<!-- S03&#45;&gt;S04 -->
+<g id="edge8" class="edge" data-name="S03-&gt;S04">
+
+<path fill="none" stroke="blue" d="M306.81,-104.03C306.81,-88.66 306.81,-65.92 306.81,-47.82"/>
+<polygon fill="blue" stroke="blue" points="310.31,-47.97 306.81,-37.97 303.31,-47.97 310.31,-47.97"/>
+<text text-anchor="middle" x="321.19" y="-58.2" font-family="Times,serif" font-size="14.00">close</text>
+</g>
+<!-- S04&#45;&gt;S04 -->
+<g id="edge5" class="edge" data-name="S04-&gt;S04">
+
+<path fill="none" stroke="blue" d="M340.9,-26.32C352.92,-26.45 362.67,-23.68 362.67,-18 362.67,-14.27 358.47,-11.8 352.18,-10.57"/>
+<polygon fill="blue" stroke="blue" points="352.65,-7.1 342.41,-9.8 352.1,-14.08 352.65,-7.1"/>
+<text text-anchor="middle" x="414.76" y="-22.2" font-family="Times,serif" font-size="14.00">t</text>
+<text text-anchor="middle" x="414.76" y="-5.4" font-family="Times,serif" font-size="14.00">transferOwnership</text>
+</g>
+<!-- S00 -->
+<g id="node5" class="node" pointer-events="visible" data-name="S00">
+
+<ellipse fill="none" stroke="black" cx="178.81" cy="-330" rx="27" ry="18"/>
+<text text-anchor="middle" x="178.81" y="-325.8" font-family="Times,serif" font-size="14.00">S00</text>
+</g>
+<!-- S00&#45;&gt;S01 -->
+<g id="edge6" class="edge" data-name="S00-&gt;S01">
+
+<path fill="none" stroke="blue" d="M178.81,-311.76C178.81,-298.33 178.81,-279.39 178.81,-263.68"/>
+<polygon fill="blue" stroke="blue" points="182.31,-263.96 178.81,-253.96 175.31,-263.96 182.31,-263.96"/>
+<text text-anchor="middle" x="210.29" y="-281.4" font-family="Times,serif" font-size="14.00">constructor</text>
+</g>
+</g>
+</svg>

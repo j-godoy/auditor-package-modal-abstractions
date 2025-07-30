@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1160pt" height="521pt" viewBox="0.00 0.00 1160.03 521.45">
+<g id="graph0" class="graph" transform="translate(4,517.4500122070312) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-517.45 1156.03,-517.45 1156.03,4 -4,4" style=""/>
+<!-- S00 -->
+<g id="node1" class="node" pointer-events="visible" data-name="S00">
+
+<ellipse fill="none" stroke="black" cx="675.84" cy="-495.45" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="675.84" y="-491.25" font-family="Times,serif" font-size="14.00" style="">Init</text>
+</g>
+<!-- S12 -->
+<g id="node2" class="node" pointer-events="visible" data-name="S12">
+
+<ellipse fill="none" stroke="black" cx="675.84" cy="-371.47" rx="182.68" ry="53.35" style=""/>
+<text text-anchor="middle" x="675.84" y="-392.47" font-family="Times,serif" font-size="14.00" style="">deposit &amp; close</text>
+<text text-anchor="middle" x="675.84" y="-375.67" font-family="Times,serif" font-size="14.00" style=""> &amp; enableRefunds &amp; !beneficiaryWithdraw</text>
+<text text-anchor="middle" x="675.84" y="-358.87" font-family="Times,serif" font-size="14.00" style=""> &amp; !withdraw &amp; transferPrimary</text>
+<text text-anchor="middle" x="675.84" y="-342.07" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S00&#45;&gt;S12 -->
+<g id="edge5" class="edge" data-name="S00-&gt;S12">
+
+<path fill="none" stroke="black" d="M675.84,-476.97C675.84,-466.16 675.84,-451.54 675.84,-436.66" style=""/>
+<polygon fill="black" stroke="black" points="679.34,-436.81 675.84,-426.81 672.34,-436.81 679.34,-436.81" style=""/>
+<text text-anchor="middle" x="707.33" y="-446.85" font-family="Times,serif" font-size="14.00" style="">constructor</text>
+</g>
+<!-- S12&#45;&gt;S12 -->
+<g id="edge9" class="edge" data-name="S12-&gt;S12">
+
+<path fill="none" stroke="blue" d="M855.03,-382.6C868.44,-380.12 876.68,-376.41 876.68,-371.47 876.68,-368.08 872.78,-365.27 865.99,-363.03" style=""/>
+<polygon fill="blue" stroke="blue" points="867.04,-359.68 856.5,-360.7 865.38,-366.48 867.04,-359.68" style=""/>
+<text text-anchor="middle" x="920.61" y="-384.07" font-family="Times,serif" font-size="14.00" style="">deposit</text>
+<text text-anchor="middle" x="920.61" y="-367.27" font-family="Times,serif" font-size="14.00" style="">t</text>
+<text text-anchor="middle" x="920.61" y="-350.47" font-family="Times,serif" font-size="14.00" style="">transferPrimary</text>
+</g>
+<!-- S72 -->
+<g id="node3" class="node" pointer-events="visible" data-name="S72">
+
+<ellipse fill="none" stroke="black" cx="182.84" cy="-212.32" rx="182.68" ry="53.35" style=""/>
+<text text-anchor="middle" x="182.84" y="-233.32" font-family="Times,serif" font-size="14.00" style="">!deposit &amp; !close</text>
+<text text-anchor="middle" x="182.84" y="-216.52" font-family="Times,serif" font-size="14.00" style=""> &amp; !enableRefunds &amp; beneficiaryWithdraw</text>
+<text text-anchor="middle" x="182.84" y="-199.72" font-family="Times,serif" font-size="14.00" style=""> &amp; !withdraw &amp; transferPrimary</text>
+<text text-anchor="middle" x="182.84" y="-182.92" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S12&#45;&gt;S72 -->
+<g id="edge11" class="edge" data-name="S12-&gt;S72">
+
+<path fill="none" stroke="turquoise" d="M553.66,-331.53C481.5,-308.52 390.08,-279.38 316.07,-255.79" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="317.32,-252.52 306.73,-252.81 315.19,-259.19 317.32,-252.52" style=""/>
+<text text-anchor="middle" x="459.22" y="-287.7" font-family="Times,serif" font-size="14.00" style="">close</text>
+</g>
+<!-- S84 -->
+<g id="node4" class="node" pointer-events="visible" data-name="S84">
+
+<ellipse fill="none" stroke="black" cx="675.84" cy="-212.32" rx="186.27" ry="53.35" style=""/>
+<text text-anchor="middle" x="675.84" y="-233.32" font-family="Times,serif" font-size="14.00" style="">!deposit &amp; !close</text>
+<text text-anchor="middle" x="675.84" y="-216.52" font-family="Times,serif" font-size="14.00" style=""> &amp; !enableRefunds &amp; !beneficiaryWithdraw</text>
+<text text-anchor="middle" x="675.84" y="-199.72" font-family="Times,serif" font-size="14.00" style=""> &amp; withdraw &amp; transferPrimary</text>
+<text text-anchor="middle" x="675.84" y="-182.92" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S12&#45;&gt;S84 -->
+<g id="edge2" class="edge" data-name="S12-&gt;S84">
+
+<path fill="none" stroke="turquoise" d="M675.84,-317.71C675.84,-304.68 675.84,-290.59 675.84,-277.1" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="679.34,-277.46 675.84,-267.46 672.34,-277.46 679.34,-277.46" style=""/>
+<text text-anchor="middle" x="717.44" y="-287.7" font-family="Times,serif" font-size="14.00" style="">enableRefunds</text>
+</g>
+<!-- S100 -->
+<g id="node5" class="node" pointer-events="visible" data-name="S100">
+
+<ellipse fill="none" stroke="black" cx="675.84" cy="-53.17" rx="186.27" ry="53.35" style=""/>
+<text text-anchor="middle" x="675.84" y="-74.17" font-family="Times,serif" font-size="14.00" style="">!deposit &amp; !close</text>
+<text text-anchor="middle" x="675.84" y="-57.37" font-family="Times,serif" font-size="14.00" style=""> &amp; !enableRefunds &amp; !beneficiaryWithdraw</text>
+<text text-anchor="middle" x="675.84" y="-40.57" font-family="Times,serif" font-size="14.00" style=""> &amp; !withdraw &amp; transferPrimary</text>
+<text text-anchor="middle" x="675.84" y="-23.77" font-family="Times,serif" font-size="14.00" style=""> &amp; τ</text>
+</g>
+<!-- S12&#45;&gt;S100 -->
+<g id="edge3" class="edge" data-name="S12-&gt;S100">
+
+<path fill="none" stroke="turquoise" d="M835.32,-345.1C923.78,-327.42 1021.21,-300.68 1047.84,-265.5 1076.36,-227.81 1076.36,-196.84 1047.84,-159.15 1022.55,-125.73 933.39,-99.94 848.7,-82.28" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="849.57,-78.88 839.07,-80.31 848.17,-85.74 849.57,-78.88" style=""/>
+<text text-anchor="middle" x="1110.44" y="-216.52" font-family="Times,serif" font-size="14.00" style="">close</text>
+<text text-anchor="middle" x="1110.44" y="-199.72" font-family="Times,serif" font-size="14.00" style="">enableRefunds</text>
+</g>
+<!-- S72&#45;&gt;S72 -->
+<g id="edge1" class="edge" data-name="S72-&gt;S72">
+
+<path fill="none" stroke="blue" d="M362.03,-223.45C375.44,-220.97 383.68,-217.26 383.68,-212.32 383.68,-208.93 379.78,-206.12 372.99,-203.88" style=""/>
+<polygon fill="blue" stroke="blue" points="374.04,-200.54 363.5,-201.55 372.38,-207.33 374.04,-200.54" style=""/>
+<text text-anchor="middle" x="427.61" y="-216.52" font-family="Times,serif" font-size="14.00" style="">t</text>
+<text text-anchor="middle" x="427.61" y="-199.72" font-family="Times,serif" font-size="14.00" style="">transferPrimary</text>
+</g>
+<!-- S72&#45;&gt;S100 -->
+<g id="edge6" class="edge" data-name="S72-&gt;S100">
+
+<path fill="none" stroke="blue" d="M305.02,-172.38C376.91,-149.46 467.91,-120.46 541.77,-96.91" style=""/>
+<polygon fill="blue" stroke="blue" points="542.63,-100.31 551.09,-93.94 540.5,-93.64 542.63,-100.31" style=""/>
+<text text-anchor="middle" x="504.31" y="-128.55" font-family="Times,serif" font-size="14.00" style="">beneficiaryWithdraw</text>
+</g>
+<!-- S84&#45;&gt;S84 -->
+<g id="edge7" class="edge" data-name="S84-&gt;S84">
+
+<path fill="none" stroke="blue" d="M861.69,-217.52C873.11,-216.29 879.97,-214.56 879.97,-212.32 879.97,-210.96 877.42,-209.79 872.85,-208.8" style=""/>
+<polygon fill="blue" stroke="blue" points="873.6,-205.37 863.19,-207.35 872.56,-212.29 873.6,-205.37" style=""/>
+<text text-anchor="middle" x="923.9" y="-216.52" font-family="Times,serif" font-size="14.00" style="">t</text>
+<text text-anchor="middle" x="923.9" y="-199.72" font-family="Times,serif" font-size="14.00" style="">transferPrimary</text>
+</g>
+<!-- S84&#45;&gt;S84 -->
+<g id="edge10" class="edge" data-name="S84-&gt;S84">
+
+<path fill="none" stroke="black" d="M855.18,-227.23C916.49,-226.95 967.83,-221.98 967.83,-212.32 967.83,-203.27 922.71,-198.34 866.55,-197.52" style=""/>
+<polygon fill="black" stroke="black" points="866.72,-194.03 856.69,-197.43 866.66,-201.03 866.72,-194.03" style=""/>
+<text text-anchor="middle" x="994.27" y="-208.12" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- S84&#45;&gt;S100 -->
+<g id="edge4" class="edge" data-name="S84-&gt;S100">
+
+<path fill="none" stroke="black" d="M675.84,-158.56C675.84,-145.53 675.84,-131.44 675.84,-117.95" style=""/>
+<polygon fill="black" stroke="black" points="679.34,-118.31 675.84,-108.31 672.34,-118.31 679.34,-118.31" style=""/>
+<text text-anchor="middle" x="702.28" y="-128.55" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- S100&#45;&gt;S100 -->
+<g id="edge8" class="edge" data-name="S100-&gt;S100">
+
+<path fill="none" stroke="blue" d="M858.61,-64.19C871.86,-61.7 879.97,-58.03 879.97,-53.17 879.97,-49.84 876.14,-47.06 869.44,-44.84" style=""/>
+<polygon fill="blue" stroke="blue" points="870.63,-41.53 860.08,-42.52 868.95,-48.32 870.63,-41.53" style=""/>
+<text text-anchor="middle" x="923.9" y="-57.37" font-family="Times,serif" font-size="14.00" style="">t</text>
+<text text-anchor="middle" x="923.9" y="-40.57" font-family="Times,serif" font-size="14.00" style="">transferPrimary</text>
+</g>
+</g>
+</svg>

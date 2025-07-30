@@ -1,0 +1,17 @@
+digraph {
+S00 [label="Init"]
+S116 [label="transferOwnership & deposit\n & !setGoalReached & withdraw\n & withdrawAll & close\n & !enableRefunds & !refund\n & τ"]
+S174 [label="transferOwnership & deposit\n & setGoalReached & !withdraw\n & !withdrawAll & !close\n & enableRefunds & !refund\n & τ"]
+S401 [label="transferOwnership & !deposit\n & !setGoalReached & !withdraw\n & !withdrawAll & !close\n & !enableRefunds & refund\n & τ"]
+S475 [label="transferOwnership & !deposit\n & !setGoalReached & !withdraw\n & !withdrawAll & !close\n & !enableRefunds & !refund\n & τ"]
+
+S116->S116 [label="withdraw", style="", color="black"]
+S174->S116 [label="setGoalReached", style="", color="blue"]
+S174->S401 [label="enableRefunds", style="", color="blue"]
+S174->S174 [label="deposit\nt\ntransferOwnership", style="", color="blue"]
+S475->S475 [label="t\ntransferOwnership", style="", color="blue"]
+S116->S475 [label="close", style="", color="blue"]
+S116->S116 [label="deposit\nt\ntransferOwnership\nwithdrawAll", style="", color="blue"]
+S401->S401 [label="refund\nt\ntransferOwnership", style="", color="blue"]
+S00->S174 [label="constructor", style="", color="blue"]
+}

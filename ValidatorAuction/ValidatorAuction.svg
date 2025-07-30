@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="363pt" height="416pt" viewBox="0.00 0.00 362.78 416.00">
+<g id="graph0" class="graph" transform="translate(51.16683033076521,396.36621194043306) scale(0.8908987222300383)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-412 358.78,-412 358.78,4 -4,4"/>
+<!-- S04 -->
+<g id="node4" class="node" pointer-events="visible" data-name="S04">
+
+<ellipse fill="none" stroke="black" cx="72.73" cy="-18" rx="35.92" ry="18"/>
+<text text-anchor="middle" x="72.73" y="-13.8" font-family="Times,serif" font-size="14.00">Ended</text>
+</g>
+<!-- S04&#45;&gt;S04 -->
+<g id="edge1" class="edge" data-name="S04-&gt;S04">
+
+<path fill="none" stroke="black" d="M108.11,-22.15C118.44,-22.01 126.44,-20.62 126.44,-18 126.44,-16.48 123.77,-15.38 119.51,-14.69"/>
+<polygon fill="black" stroke="black" points="119.85,-11.21 109.62,-13.96 119.34,-18.19 119.85,-11.21"/>
+<text text-anchor="middle" x="152.88" y="-13.8" font-family="Times,serif" font-size="14.00">withdraw</text>
+</g>
+<!-- S04&#45;&gt;S04 -->
+
+<!-- S02 -->
+<g id="node2" class="node" pointer-events="visible" data-name="S02">
+
+<ellipse fill="none" stroke="black" cx="147.73" cy="-212.4" rx="38.28" ry="18"/>
+<text text-anchor="middle" x="147.73" y="-208.2" font-family="Times,serif" font-size="14.00">Started</text>
+</g>
+<!-- S02&#45;&gt;S02 -->
+<g id="edge6" class="edge" data-name="S02-&gt;S02">
+
+<path fill="none" stroke="blue" d="M185.42,-216.54C196,-216.36 204.12,-214.98 204.12,-212.4 204.12,-210.87 201.26,-209.76 196.72,-209.07"/>
+<polygon fill="blue" stroke="blue" points="197.15,-205.6 186.93,-208.37 196.65,-212.58 197.15,-205.6"/>
+<text text-anchor="middle" x="207.62" y="-208.2" font-family="Times,serif" font-size="14.00">τ</text>
+</g>
+<!-- S02&#45;&gt;S02 -->
+<g id="edge10" class="edge" data-name="S02-&gt;S02">
+
+<path fill="none" stroke="black" d="M182.55,-220.24C202.99,-221.91 222.12,-219.29 222.12,-212.4 222.12,-206.8 209.49,-204.02 193.79,-204.08"/>
+<polygon fill="black" stroke="black" points="193.9,-200.57 184.06,-204.5 194.21,-207.56 193.9,-200.57"/>
+<text text-anchor="middle" x="231.07" y="-208.2" font-family="Times,serif" font-size="14.00" style="">bid</text>
+</g>
+<!-- S05 -->
+<g id="node5" class="node" pointer-events="visible" data-name="S05">
+
+<ellipse fill="none" stroke="black" cx="223.73" cy="-106.8" rx="35.35" ry="18"/>
+<text text-anchor="middle" x="223.73" y="-102.6" font-family="Times,serif" font-size="14.00" style="">Failed</text>
+</g>
+<!-- S02&#45;&gt;S05 -->
+<g id="edge2" class="edge" data-name="S02-&gt;S05">
+
+<path fill="none" stroke="black" d="M167.42,-196.67C174.37,-190.85 181.9,-183.79 187.73,-176.4 197.56,-163.94 205.97,-148.4 212.19,-135.26"/>
+<polygon fill="black" stroke="black" points="215.31,-136.84 216.25,-126.28 208.94,-133.95 215.31,-136.84"/>
+<text text-anchor="middle" x="245.67" y="-155.4" font-family="Times,serif" font-size="14.00">closeAuction</text>
+</g>
+<!-- S03 -->
+<g id="node3" class="node" pointer-events="visible" data-name="S03">
+
+<ellipse fill="none" stroke="black" cx="72.73" cy="-106.8" rx="72.96" ry="18"/>
+<text text-anchor="middle" x="72.73" y="-102.6" font-family="Times,serif" font-size="14.00">DepositPending</text>
+</g>
+<!-- S02&#45;&gt;S03 -->
+<g id="edge7" class="edge" data-name="S02-&gt;S03">
+
+<path fill="none" stroke="black" d="M131.06,-195.72C125.3,-189.92 119.01,-183.11 113.86,-176.4 103.92,-163.45 94.44,-147.92 87.09,-134.92"/>
+<polygon fill="black" stroke="black" points="90.31,-133.52 82.41,-126.46 84.18,-136.9 90.31,-133.52"/>
+<text text-anchor="middle" x="151.67" y="-163.8" font-family="Times,serif" font-size="14.00">bid</text>
+<text text-anchor="middle" x="151.67" y="-147" font-family="Times,serif" font-size="14.00">closeAuction</text>
+</g>
+<!-- S05&#45;&gt;S05 -->
+<g id="edge9" class="edge" data-name="S05-&gt;S05">
+
+<path fill="none" stroke="blue" d="M258.51,-110.95C268.85,-110.83 276.91,-109.44 276.91,-106.8 276.91,-105.27 274.21,-104.16 269.95,-103.48"/>
+<polygon fill="blue" stroke="blue" points="270.24,-99.99 260.02,-102.76 269.74,-106.97 270.24,-99.99"/>
+<text text-anchor="middle" x="280.41" y="-102.6" font-family="Times,serif" font-size="14.00">τ</text>
+</g>
+<!-- S05&#45;&gt;S05 -->
+
+<!-- S03&#45;&gt;S04 -->
+<g id="edge3" class="edge" data-name="S03-&gt;S04">
+
+<path fill="none" stroke="black" d="M72.73,-88.65C72.73,-76.96 72.73,-61.19 72.73,-47.62"/>
+<polygon fill="black" stroke="black" points="76.23,-47.92 72.73,-37.92 69.23,-47.92 76.23,-47.92"/>
+<text text-anchor="middle" x="105.79" y="-58.2" font-family="Times,serif" font-size="14.00">depositBids</text>
+</g>
+<!-- S03&#45;&gt;S03 -->
+<g id="edge8" class="edge" data-name="S03-&gt;S03">
+
+<path fill="none" stroke="blue" d="M138.79,-114.88C153.09,-114.09 163.46,-111.4 163.46,-106.8 163.46,-103.53 158.22,-101.23 150.05,-99.88"/>
+<polygon fill="blue" stroke="blue" points="150.6,-96.42 140.3,-98.88 149.89,-103.38 150.6,-96.42"/>
+<text text-anchor="middle" x="166.96" y="-102.6" font-family="Times,serif" font-size="14.00">τ</text>
+</g>
+<!-- S01 -->
+<g id="node1" class="node" pointer-events="visible" data-name="S01">
+
+<ellipse fill="none" stroke="black" cx="147.73" cy="-301.2" rx="48.66" ry="18"/>
+<text text-anchor="middle" x="147.73" y="-297" font-family="Times,serif" font-size="14.00">Deployed</text>
+</g><g id="edge11" class="edge" data-name="S04-&gt;S04" data-comment="S01">
+
+<path fill="none" stroke="blue" d="M106.4,-25C138.89,-28.1 179.31,-25.76 179.31,-18 179.31,-11.12 147.53,-8.5 117.68,-10.15"/>
+<polygon fill="blue" stroke="blue" points="117.62,-6.65 107.91,-10.88 118.15,-13.63 117.62,-6.65"/>
+<text text-anchor="middle" x="182.81" y="-13.8" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S01&#45;&gt;S02 -->
+<g id="edge4" class="edge" data-name="S01-&gt;S02">
+
+<path fill="none" stroke="blue" d="M147.73,-283.05C147.73,-271.36 147.73,-255.59 147.73,-242.02"/>
+<polygon fill="blue" stroke="blue" points="151.23,-242.32 147.73,-232.32 144.23,-242.32 151.23,-242.32"/>
+<text text-anchor="middle" x="182.34" y="-252.6" font-family="Times,serif" font-size="14.00">startAuction</text>
+</g>
+<!-- S01&#45;&gt;S01 -->
+<g id="edge5" class="edge" data-name="S01-&gt;S01">
+
+<path fill="none" stroke="blue" d="M191.59,-309.5C204.4,-309.21 214.31,-306.45 214.31,-301.2 214.31,-297.68 209.84,-295.27 203.01,-293.98"/>
+<polygon fill="blue" stroke="blue" points="203.39,-290.5 193.1,-293.04 202.72,-297.47 203.39,-290.5"/>
+<text text-anchor="middle" x="257.86" y="-305.4" font-family="Times,serif" font-size="14.00">addToWhitelist</text>
+<text text-anchor="middle" x="257.86" y="-288.6" font-family="Times,serif" font-size="14.00">t</text>
+</g><g id="edge12" class="edge" data-name="S05-&gt;S05" data-comment="S01-&gt;S01">
+
+<path fill="none" stroke="black" d="M255.94,-114.54C275.9,-116.4 294.91,-113.82 294.91,-106.8 294.91,-101.15 282.6,-98.37 267.39,-98.48"/>
+<polygon fill="black" stroke="black" points="267.26,-94.98 257.45,-98.99 267.62,-101.97 267.26,-94.98"/>
+<text text-anchor="middle" x="321.34" y="-102.6" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- S00 -->
+<g id="node6" class="node" pointer-events="visible" data-name="S00">
+
+<ellipse fill="none" stroke="black" cx="147.73" cy="-390" rx="27" ry="18"/>
+<text text-anchor="middle" x="147.73" y="-385.8" font-family="Times,serif" font-size="14.00">S00</text>
+</g>
+<!-- S00&#45;&gt;S01 -->
+<g id="edge13" class="edge" data-name="S00-&gt;S01">
+
+<path fill="none" stroke="blue" d="M147.73,-371.85C147.73,-360.16 147.73,-344.39 147.73,-330.82"/>
+<polygon fill="blue" stroke="blue" points="151.23,-331.12 147.73,-321.12 144.23,-331.12 151.23,-331.12"/>
+<text text-anchor="middle" x="179.22" y="-341.4" font-family="Times,serif" font-size="14.00">constructor</text>
+</g>
+</g>
+</svg>

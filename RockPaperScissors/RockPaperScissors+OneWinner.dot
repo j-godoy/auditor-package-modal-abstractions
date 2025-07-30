@@ -1,0 +1,22 @@
+digraph {
+
+S01 [label="Sin apuestas"]
+S02 [label="Apuesta 1"]
+S03 [label="Apuesta 2"]
+S04 [label="apuestan ambos, gana1"]
+S05 [label="apuestan ambos, gana2"]
+S06 [label="apuestan ambos, empate"]
+
+S05->S05 [label="determineWinner", style="", color="blue"]
+S01->S03 [label="choicePlayer2", style="", color="blue"]
+S02->S04 [label="choicePlayer2", style="", color="blue"]
+S02->S05 [label="choicePlayer2", style="", color="blue"]
+S03->S06 [label="choicePlayer1", style="", color="blue"]
+S04->S04 [label="determineWinner", style="", color="blue"]
+S00->S01 [label="constructor", style="", color="blue"]
+S01->S02 [label="choicePlayer1", style="", color="blue"]
+S02->S06 [label="choicePlayer2", style="", color="blue"]
+S03->S04 [label="choicePlayer1", style="", color="blue"]
+S03->S05 [label="choicePlayer1", style="", color="blue"]
+S06->S06 [label="determineWinner", style="", color="blue"]
+}

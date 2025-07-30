@@ -1,0 +1,223 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="856pt" viewBox="0.00 0.00 647.98 856.34">
+<g id="graph0" class="graph" transform="translate(4,852.3400268554688) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-852.34 643.98,-852.34 643.98,4 -4,4" style=""/>
+<!-- S00 -->
+<g id="node1" class="node" pointer-events="visible" data-name="S00">
+
+<ellipse fill="none" stroke="black" cx="369" cy="-830.34" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="369" y="-826.14" font-family="Times,serif" font-size="14.00" style="">Init</text>
+</g>
+<!-- S22 -->
+<g id="node6" class="node" pointer-events="visible" data-name="S22">
+
+<ellipse fill="none" stroke="black" cx="118" cy="-41.3" rx="89.9" ry="41.09" style=""/>
+<text text-anchor="middle" x="118" y="-53.9" font-family="Times,serif" font-size="14.00" style="">!donate &amp; getFunds</text>
+<text text-anchor="middle" x="118" y="-37.1" font-family="Times,serif" font-size="14.00" style=""> &amp; !claim &amp; τ</text>
+<text text-anchor="middle" x="118" y="-20.3" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance = 0</text>
+</g>
+<!-- S00&#45;&gt;S22 -->
+<g id="edge19" class="edge" data-name="S00-&gt;S22">
+
+<path fill="none" stroke="blue" d="M342.17,-827.17C257.25,-819.58 0,-790.69 0,-719.25 0,-719.25 0,-719.25 0,-175.69 0,-137.44 27.55,-105.01 56.03,-81.7" style=""/>
+<polygon fill="blue" stroke="blue" points="57.97,-84.63 63.68,-75.7 53.65,-79.12 57.97,-84.63" style=""/>
+<text text-anchor="middle" x="31.49" y="-443.27" font-family="Times,serif" font-size="14.00" style="">constructor</text>
+</g>
+<!-- S26 -->
+<g id="node7" class="node" pointer-events="visible" data-name="S26">
+
+<ellipse fill="none" stroke="black" cx="369" cy="-718.25" rx="89.9" ry="41.09" style=""/>
+<text text-anchor="middle" x="369" y="-730.85" font-family="Times,serif" font-size="14.00" style="">donate &amp; !getFunds</text>
+<text text-anchor="middle" x="369" y="-714.05" font-family="Times,serif" font-size="14.00" style=""> &amp; !claim &amp; τ</text>
+<text text-anchor="middle" x="369" y="-697.25" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance = 0</text>
+</g>
+<!-- S00&#45;&gt;S26 -->
+<g id="edge3" class="edge" data-name="S00-&gt;S26">
+
+<path fill="none" stroke="blue" d="M369,-812.14C369,-800.96 369,-785.74 369,-770.86" style=""/>
+<polygon fill="blue" stroke="blue" points="372.5,-771.13 369,-761.13 365.5,-771.13 372.5,-771.13" style=""/>
+<text text-anchor="middle" x="400.49" y="-781.74" font-family="Times,serif" font-size="14.00" style="">constructor</text>
+</g>
+<!-- S28 -->
+<g id="node8" class="node" pointer-events="visible" data-name="S28">
+
+<ellipse fill="none" stroke="black" cx="344" cy="-176.69" rx="93.49" ry="41.09" style=""/>
+<text text-anchor="middle" x="344" y="-189.29" font-family="Times,serif" font-size="14.00" style="">!donate &amp; !getFunds</text>
+<text text-anchor="middle" x="344" y="-172.49" font-family="Times,serif" font-size="14.00" style=""> &amp; !claim &amp; τ</text>
+<text text-anchor="middle" x="344" y="-155.69" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance = 0</text>
+</g>
+<!-- S00&#45;&gt;S28 -->
+<g id="edge12" class="edge" data-name="S00-&gt;S28">
+
+<path fill="none" stroke="blue" d="M395.77,-827.45C451.94,-821.87 577,-800.35 577,-719.25 577,-719.25 577,-719.25 577,-311.08 577,-245.2 505.99,-211.41 442.38,-194.35" style=""/>
+<polygon fill="blue" stroke="blue" points="443.45,-191.01 432.89,-191.93 441.71,-197.79 443.45,-191.01" style=""/>
+<text text-anchor="middle" x="608.49" y="-510.96" font-family="Times,serif" font-size="14.00" style="">constructor</text>
+</g>
+<!-- S06 -->
+<g id="node2" class="node" pointer-events="visible" data-name="S06">
+
+<ellipse fill="none" stroke="black" cx="118" cy="-312.08" rx="89.9" ry="41.09" style=""/>
+<text text-anchor="middle" x="118" y="-324.68" font-family="Times,serif" font-size="14.00" style="">!donate &amp; getFunds</text>
+<text text-anchor="middle" x="118" y="-307.88" font-family="Times,serif" font-size="14.00" style=""> &amp; !claim &amp; τ</text>
+<text text-anchor="middle" x="118" y="-291.08" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance &gt; 0</text>
+</g>
+<!-- S06&#45;&gt;S06 -->
+<g id="edge14" class="edge" data-name="S06-&gt;S06">
+
+<path fill="none" stroke="blue" stroke-dasharray="5,2" d="M204.82,-323.53C217.45,-321.71 225.95,-317.89 225.95,-312.08 225.95,-308.17 222.11,-305.16 215.76,-303.06" style=""/>
+<polygon fill="blue" stroke="blue" points="216.82,-299.71 206.3,-300.95 215.3,-306.54 216.82,-299.71" style=""/>
+<text text-anchor="middle" x="229.45" y="-307.88" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S06&#45;&gt;S22 -->
+<g id="edge17" class="edge" data-name="S06-&gt;S22">
+
+<path fill="none" stroke="turquoise" d="M118,-270.55C118,-223.37 118,-145.38 118,-93.91" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="121.5,-94.23 118,-84.23 114.5,-94.23 121.5,-94.23" style=""/>
+<text text-anchor="middle" x="143.67" y="-172.49" font-family="Times,serif" font-size="14.00" style="">getFunds</text>
+</g>
+<!-- S06&#45;&gt;S28 -->
+<g id="edge20" class="edge" data-name="S06-&gt;S28">
+
+<path fill="none" stroke="turquoise" d="M172.42,-278.96C204.52,-260.01 245.33,-235.92 279.1,-215.99" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="280.74,-219.09 287.57,-210.99 277.18,-213.06 280.74,-219.09" style=""/>
+<text text-anchor="middle" x="270.67" y="-240.18" font-family="Times,serif" font-size="14.00" style="">getFunds</text>
+</g>
+<!-- S10 -->
+<g id="node3" class="node" pointer-events="visible" data-name="S10">
+
+<ellipse fill="none" stroke="black" cx="341" cy="-582.86" rx="89.9" ry="41.09" style=""/>
+<text text-anchor="middle" x="341" y="-595.46" font-family="Times,serif" font-size="14.00" style="">donate &amp; !getFunds</text>
+<text text-anchor="middle" x="341" y="-578.66" font-family="Times,serif" font-size="14.00" style=""> &amp; !claim &amp; τ</text>
+<text text-anchor="middle" x="341" y="-561.86" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance &gt; 0</text>
+</g>
+<!-- S10&#45;&gt;S10 -->
+<g id="edge13" class="edge" data-name="S10-&gt;S10">
+
+<path fill="none" stroke="blue" d="M430.35,-588.38C441.57,-587.41 448.95,-585.57 448.95,-582.86 448.95,-581.2 446.21,-579.87 441.53,-578.87" style=""/>
+<polygon fill="blue" stroke="blue" points="442.23,-575.43 431.84,-577.53 441.27,-582.37 442.23,-575.43" style=""/>
+<text text-anchor="middle" x="467.61" y="-578.66" font-family="Times,serif" font-size="14.00" style="">donate</text>
+</g>
+<!-- S10&#45;&gt;S10 -->
+<g id="edge18" class="edge" data-name="S10-&gt;S10">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M426.82,-595.54C459.01,-595.78 486.27,-591.55 486.27,-582.86 486.27,-575.21 465.21,-571.02 438.26,-570.28" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="438.36,-566.78 428.33,-570.19 438.3,-573.78 438.36,-566.78" style=""/>
+<text text-anchor="middle" x="489.77" y="-578.66" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S12 -->
+<g id="node5" class="node" pointer-events="visible" data-name="S12">
+
+<ellipse fill="none" stroke="black" cx="341" cy="-447.47" rx="93.49" ry="41.09" style=""/>
+<text text-anchor="middle" x="341" y="-460.07" font-family="Times,serif" font-size="14.00" style="">!donate &amp; !getFunds</text>
+<text text-anchor="middle" x="341" y="-443.27" font-family="Times,serif" font-size="14.00" style=""> &amp; !claim &amp; τ</text>
+<text text-anchor="middle" x="341" y="-426.47" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance &gt; 0</text>
+</g>
+<!-- S10&#45;&gt;S12 -->
+<g id="edge16" class="edge" data-name="S10-&gt;S12">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M341,-541.47C341,-528.41 341,-513.75 341,-500" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="344.5,-500.22 341,-490.22 337.5,-500.22 344.5,-500.22" style=""/>
+<text text-anchor="middle" x="344.5" y="-510.96" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S11 -->
+<g id="node4" class="node" pointer-events="visible" data-name="S11">
+
+<ellipse fill="none" stroke="black" cx="344" cy="-312.08" rx="93.49" ry="41.09" style=""/>
+<text text-anchor="middle" x="344" y="-324.68" font-family="Times,serif" font-size="14.00" style="">!donate &amp; !getFunds</text>
+<text text-anchor="middle" x="344" y="-307.88" font-family="Times,serif" font-size="14.00" style=""> &amp; claim &amp; τ</text>
+<text text-anchor="middle" x="344" y="-291.08" font-family="Times,serif" font-size="14.00" style=""> &amp; e._balance &gt; 0</text>
+</g>
+<!-- S11&#45;&gt;S11 -->
+<g id="edge8" class="edge" data-name="S11-&gt;S11">
+
+<path fill="none" stroke="turquoise" d="M436.91,-317.53C448,-316.54 455.25,-314.72 455.25,-312.08 455.25,-310.51 452.69,-309.23 448.3,-308.24" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="448.8,-304.78 438.41,-306.83 447.82,-311.71 448.8,-304.78" style=""/>
+<text text-anchor="middle" x="470.79" y="-307.88" font-family="Times,serif" font-size="14.00" style="">claim</text>
+</g>
+<!-- S11&#45;&gt;S11 -->
+<g id="edge15" class="edge" data-name="S11-&gt;S11">
+
+<path fill="none" stroke="blue" stroke-dasharray="5,2" d="M433.44,-324.76C462.68,-324.57 486.34,-320.34 486.34,-312.08 486.34,-304.91 468.55,-300.78 444.75,-299.68" style=""/>
+<polygon fill="blue" stroke="blue" points="445.04,-296.19 434.95,-299.43 444.86,-303.18 445.04,-296.19" style=""/>
+<text text-anchor="middle" x="489.84" y="-307.88" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S11&#45;&gt;S28 -->
+<g id="edge21" class="edge" data-name="S11-&gt;S28">
+
+<path fill="none" stroke="turquoise" d="M344,-270.69C344,-257.63 344,-242.97 344,-229.22" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="347.5,-229.44 344,-219.44 340.5,-229.44 347.5,-229.44" style=""/>
+<text text-anchor="middle" x="359.55" y="-240.18" font-family="Times,serif" font-size="14.00" style="">claim</text>
+</g>
+<!-- S12&#45;&gt;S06 -->
+<g id="edge1" class="edge" data-name="S12-&gt;S06">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M286.45,-413.83C254.76,-394.88 214.69,-370.91 181.58,-351.1" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="183.67,-348.28 173.29,-346.15 180.07,-354.28 183.67,-348.28" style=""/>
+<text text-anchor="middle" x="246.5" y="-375.57" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S12&#45;&gt;S11 -->
+<g id="edge2" class="edge" data-name="S12-&gt;S11">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M341.91,-406.08C342.2,-393.02 342.53,-378.36 342.84,-364.61" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="346.33,-364.91 343.06,-354.83 339.34,-364.75 346.33,-364.91" style=""/>
+<text text-anchor="middle" x="346.5" y="-375.57" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S12&#45;&gt;S12 -->
+<g id="edge5" class="edge" data-name="S12-&gt;S12">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M431.35,-458.79C443.88,-456.93 452.25,-453.15 452.25,-447.47 452.25,-443.65 448.47,-440.69 442.19,-438.59" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="443.36,-435.27 432.83,-436.47 441.81,-442.1 443.36,-435.27" style=""/>
+<text text-anchor="middle" x="455.75" y="-443.27" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S22&#45;&gt;S22 -->
+<g id="edge10" class="edge" data-name="S22-&gt;S22">
+
+<path fill="none" stroke="blue" d="M204.82,-52.75C217.45,-50.93 225.95,-47.11 225.95,-41.3 225.95,-37.39 222.11,-34.38 215.76,-32.28" style=""/>
+<polygon fill="blue" stroke="blue" points="216.82,-28.93 206.3,-30.17 215.3,-35.76 216.82,-28.93" style=""/>
+<text text-anchor="middle" x="251.62" y="-45.5" font-family="Times,serif" font-size="14.00" style="">getFunds</text>
+<text text-anchor="middle" x="251.62" y="-28.7" font-family="Times,serif" font-size="14.00" style="">t</text>
+</g>
+<!-- S26&#45;&gt;S10 -->
+<g id="edge6" class="edge" data-name="S26-&gt;S10">
+
+<path fill="none" stroke="blue" d="M360.52,-676.86C357.75,-663.67 354.64,-648.85 351.73,-634.97" style=""/>
+<polygon fill="blue" stroke="blue" points="355.24,-634.65 349.76,-625.58 348.39,-636.09 355.24,-634.65" style=""/>
+<text text-anchor="middle" x="375.66" y="-646.35" font-family="Times,serif" font-size="14.00" style="">donate</text>
+</g>
+<!-- S26&#45;&gt;S26 -->
+<g id="edge4" class="edge" data-name="S26-&gt;S26">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M458.35,-723.77C469.57,-722.8 476.95,-720.96 476.95,-718.25 476.95,-716.59 474.21,-715.26 469.53,-714.26" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="470.23,-710.82 459.84,-712.93 469.27,-717.76 470.23,-710.82" style=""/>
+<text text-anchor="middle" x="480.45" y="-714.05" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S26&#45;&gt;S26 -->
+<g id="edge7" class="edge" data-name="S26-&gt;S26">
+
+<path fill="none" stroke="blue" d="M454.95,-730.83C477.71,-730.11 494.95,-725.91 494.95,-718.25 494.95,-711.89 483.13,-707.93 466.13,-706.34" style=""/>
+<polygon fill="blue" stroke="blue" points="466.65,-702.87 456.46,-705.76 466.23,-709.85 466.65,-702.87" style=""/>
+<text text-anchor="middle" x="513.61" y="-714.05" font-family="Times,serif" font-size="14.00" style="">donate</text>
+</g>
+<!-- S26&#45;&gt;S28 -->
+<g id="edge22" class="edge" data-name="S26-&gt;S28">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M440.6,-692.92C487.06,-672.09 539,-636.94 539,-583.86 539,-583.86 539,-583.86 539,-311.08 539,-256.11 485.56,-222.13 434.63,-202.24" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="436.17,-199.08 425.58,-198.85 433.72,-205.63 436.17,-199.08" style=""/>
+<text text-anchor="middle" x="542.5" y="-443.27" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S28&#45;&gt;S22 -->
+<g id="edge11" class="edge" data-name="S28-&gt;S22">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M288.71,-143.05C256.48,-124.03 215.69,-99.95 182.06,-80.1" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="184.02,-77.2 173.63,-75.13 180.46,-83.23 184.02,-77.2" style=""/>
+<text text-anchor="middle" x="248.5" y="-104.79" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+<!-- S28&#45;&gt;S28 -->
+<g id="edge9" class="edge" data-name="S28-&gt;S28">
+
+<path fill="none" stroke="turquoise" stroke-dasharray="5,2" d="M434.35,-188.01C446.88,-186.15 455.25,-182.37 455.25,-176.69 455.25,-172.87 451.47,-169.91 445.19,-167.81" style=""/>
+<polygon fill="turquoise" stroke="turquoise" points="446.36,-164.49 435.83,-165.69 444.81,-171.31 446.36,-164.49" style=""/>
+<text text-anchor="middle" x="458.75" y="-172.49" font-family="Times,serif" font-size="14.00" style="">τ</text>
+</g>
+</g>
+</svg>
